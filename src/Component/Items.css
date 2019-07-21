@@ -1,0 +1,23 @@
+.Item-wrapper{
+    display: flex;
+    background-color:transparent;
+    width: 300px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:10px;
+    color: black;
+    font-size: 15px;
+}
+.Item-wrapper p{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.Item-wrapper img:last-child{
+    margin-left: 10px;
+}
+.Item-wrapper img{
+    cursor: pointer;
+}
+.modal-body > input{
+    width: 100%;
+}

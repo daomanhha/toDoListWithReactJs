@@ -1,0 +1,29 @@
+
+.DateItem{
+    /* width: 300px !important; */
+    background-color:transparent ;
+    text-align: center;
+    cursor: pointer;
+    color: aqua;
+    font-size: 30px;
+    margin:0 20px 0 20px;
+    /* border:1px solid #22D3E5; */
+}
+.Date-Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+}
+.Date-Wrapper img{
+ cursor: pointer;
+}
+.left-arrow,.right-arrow{
+    width: 32px;
+    height: 32px;
+}
+.left-arrow{
+    order: -1;
+}
