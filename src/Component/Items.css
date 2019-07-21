@@ -5,12 +5,13 @@
     justify-content: flex-start;
     align-items: center;
     margin-top:10px;
-    color: black;
+    color:crimson;
     font-size: 15px;
 }
 .Item-wrapper p{
     flex-grow: 1;
     margin-left: 10px;
+    font-weight: 700;
 }
 .Item-wrapper img:last-child{
     margin-left: 10px;
